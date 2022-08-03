@@ -1,14 +1,112 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>리디자인</title>
-  <script src="js/script.js" defer></script>
+  <title>포폴 cj 리디자인</title>
+  <!-- 제이쿼리 등등 스크립트 -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
 </head>
+
 <body>
-  <div>git test2</div>
+  <div class="con">
+    <h2 class="screen_out">메뉴</h2>
+    <div class="doc-header">
+      <nav class="top-bar-menu-box">
+        <ul>
+          <li>
+            <a href="#">
+              <img src="img/logo.png" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">1stLook</a>
+          </li>
+          <li>
+            <a href="#">회사소개</a>
+            <ul>
+              <li>
+                <a href="#">회사소개</a>
+              </li>
+              <li>
+                <a href="#">연혁</a>
+              </li>
+              <li>
+                <a href="#">오시는길</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">사업영역</a>
+            <ul>
+              <li>
+                <a href="#">드라마</a>
+              </li>
+              <li>
+                <a href="#">예능</a>
+              </li>
+              <li>
+                <a href="#">영화</a>
+              </li>
+              <li>
+                <a href="#">공연</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">주요뉴스</a>
+          </li>
+          <li>
+            <a href="#">문의하기</a>
+            <ul>
+              <li>
+                <a href="#">공지사항</a>
+              </li>
+              <li>
+                <a href="#">자료실</a>
+              </li>
+              <li>
+                <a href="#">인재채용</a>
+              </li>
+              <li>
+                <a href="#">문의하기</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="home-main">
+    <h2 class="screen_out">홈</h2>
+    <div class="main-content">
+      <h3 class="screen_out">홈 본문</h3>
+      <div class="main-slide">
+        <!-- 슬라이더 메인 컨테이너 -->
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide-1">
+              <img src="img/main-img2.jpg" alt="">
+            </div>
+            <div class="swiper-slide slide-2">
+              <img src="img/main-img1.jpeg" alt="">
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 </body>
+
 </html>

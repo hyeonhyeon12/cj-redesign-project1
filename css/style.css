@@ -1,0 +1,172 @@
+/* 노말라이즈 시작 */
+body {
+  background-color: rgb(23, 23, 23);
+}
+
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 노말라이즈 끝 */
+
+/* 라이브러리 */
+.inline-grid {
+  font-size: 0;
+}
+
+.inline-grid>* {
+  font-size: 1rem;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.border-red {
+  border: 10px solid red;
+}
+
+.border-blue {
+  border: 10px solid blue;
+}
+
+.border-gold {
+  border: 10px solid gold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.block {
+  display: block;
+}
+
+.con {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-box>img {
+  width: 100%;
+  display: block;
+}
+
+.screen_out {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+/* 탑바 커스텀 시작 */
+
+.doc-header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  min-width: 1400px;
+  width: 100%;
+  padding-top: 28px;
+  box-sizing: border-box;
+}
+
+.top-bar-menu-box {
+  text-align: center;
+  color: aliceblue
+}
+
+.top-bar-menu-box>ul>li>img {
+  width: 134px;
+  height: 59px;
+}
+
+.top-bar-menu-box>ul {
+  display: inline-block;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.top-bar-menu-box ul>li {
+  position: relative;
+}
+
+.top-bar-menu-box>ul>li {
+  display: inline-block;
+}
+
+.top-bar-menu-box ul>li>a {
+  display: block;
+  padding: 10px 20px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.top-bar-menu-box ul>li:hover>a {
+  color: black;
+}
+
+.top-bar-menu-box ul>li:hover>ul {
+  display: block;
+}
+
+.top-bar-menu-box>ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.top-bar-menu-box>ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+.top-bar-menu-box>ul>li:last-child>ul ul {
+  left: auto;
+  right: 100%;
+}
+
+/* 커스텀 끝 */
+
+/* 메인베너 커스텀 시작 */
+.home-main {
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+  min-width: 1400px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main-slide {
+  width: 100%;
+  height: 90vh;
+}
+
+.swiper {
+  width: 100%;
+  height: 100vh;
+  left: 0;
+}
+
+.swiper>img {
+  object-fit: cover;
+}
+
+/* 커스텀 끝 */
